@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "createthings"
+version = "0.0.1"
+description = ""
+authors = ["Tapajoyti Chowdhury <tchowdhury@tnsiit.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+boto3 = "^1.35.62"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
